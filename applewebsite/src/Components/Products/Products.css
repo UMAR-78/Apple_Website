@@ -1,0 +1,33 @@
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card {
+    width: calc(50% - 10px); /* 50% width for 2 cards per row with some spacing */
+    margin-bottom: 20px; /* Adjust spacing as needed */
+    text-align: center;
+    background-color: #fbfbfd;
+    padding: 20px 10px;    
+
+}
+
+/* .img-card1 {
+  width: 100%;
+} */
+
+
+
+
+@media (max-width: 540) {
+        .card
+        {
+            width: 100%;
+            flex-basis: 100%;
+            flex-direction: column;
+        }    
+}
